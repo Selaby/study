@@ -2,6 +2,7 @@
 ### これをベースに課題の内容を追記してください
 import pandas as pd
 import os
+# カレントディレクトリを指定する
 os.chdir("D://Documents//OneDrive - 武内 健太朗//My Python//課題")
 df = pd.read_csv("list.csv")
 source = list(df["name"])
